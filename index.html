@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Typing Assistant - Help for Impaired Typers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Typing Assistant</h1>
+            <p>Helping impaired typers with predictive spelling and grammar</p>
+        </header>
+
+        <div class="typing-area">
+            <textarea id="input-box" placeholder="Start typing... The AI will help correct spelling and suggest improvements as you type." rows="8"></textarea>
+            
+            <div class="suggestions">
+                <div id="spelling-suggestions" class="suggestion-group">
+                    <h3>✨ Spelling Corrections</h3>
+                    <div id="spelling-list"></div>
+                </div>
+                
+                <div id="grammar-suggestions" class="suggestion-group">
+                    <h3>📝 Grammar Improvements</h3>
+                    <div id="grammar-list"></div>
+                </div>
+                
+                <div id="context-suggestions" class="suggestion-group">
+                    <h3>💡 Next Word Suggestions</h3>
+                    <div id="context-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="clear-btn">Clear Text</button>
+            <button id="apply-all-btn">Apply All Suggestions</button>
+            <label>
+                <input type="checkbox" id="auto-correct"> Auto-correct as I type
+            </label>
+        </div>
+
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>✅ Real-time spelling corrections</li>
+                <li>✅ Context-aware grammar suggestions</li>
+                <li>✅ Predictive text recommendations</li>
+                <li>✅ Auto-correct toggle for different needs</li>
+                <li>✅ Clear suggestions with one click</li>
+                <li>✅ Lightweight and fast</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
