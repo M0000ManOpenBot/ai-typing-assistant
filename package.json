@@ -1,0 +1,30 @@
+{
+  "name": "ai-typing-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered typing assistance for users with typing impairments",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "serve": "python3 -m http.server 8000",
+    "demo": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "accessibility",
+    "typing",
+    "assistive",
+    "spelling",
+    "grammar",
+    "disability",
+    "dyslexia"
+  ],
+  "author": "OpenClaw AI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neathean/ai-typing-assistant"
+  },
+  "bugs": {
+    "url": "https://github.com/neathean/ai-typing-assistant/issues"
+  },
+  "homepage": "https://neathean.github.io/ai-typing-assistant/"
+}
